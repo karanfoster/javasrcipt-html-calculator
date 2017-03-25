@@ -1,4 +1,3 @@
-alert("javascript runs this code when the page loads");
 function clearDisplay(){
     document.getElementById("display-bar").innerHTML = "";
 }
@@ -7,5 +6,5 @@ function display(userInput){
 }
 function calculate(){
      var answer =eval(document.getElementById("display-bar").innerHTML)
-     document.getElementById("display-bar")
+     document.getElementById("display-bar").innerHTML = answer;                                                                                                                                               
 }
